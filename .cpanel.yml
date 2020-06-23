@@ -1,0 +1,6 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ui0it7ugrg9a/public_html/video
+    - /bin/cp -R * $DEPLOYPATH
